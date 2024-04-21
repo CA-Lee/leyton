@@ -1,0 +1,11 @@
+# Exported from Render on 2024-04-21T07:15:57Z
+services:
+- type: web
+  name: leyton
+  runtime: docker
+  repo: https://github.com/CA-Lee/leyton
+  plan: free
+  region: singapore
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
