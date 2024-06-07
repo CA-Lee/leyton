@@ -1,6 +1,6 @@
 # Exported from Render on 2024-04-21T07:15:57Z
 services:
-- type: web
+- type: worker
   name: leyton
   runtime: docker
   repo: https://github.com/CA-Lee/leyton
